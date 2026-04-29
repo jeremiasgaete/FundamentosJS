@@ -1,0 +1,119 @@
+console.log("Conexion exitosa con js");
+// Resultado esperado en alert:
+// "Bienvenido Juan"
+
+function ejercicio1() {
+    let nombre = "Jeremías";
+    alert(`Bienvenido ${nombre}`);
+}
+
+
+// EJERCICIO 2
+// Resultado esperado en alert:
+// "La suma es: 15"
+
+function ejercicio2() {
+    let suma = 10 + 5;
+    alert(`La suma es ${suma}`);
+}
+
+
+// EJERCICIO 3
+// Resultado esperado en alert:
+// "La resta es: 12"
+
+function ejercicio3() {
+    let resta = 20 - 8;
+    alert(`la resta es ${resta}`)
+}
+
+
+// EJERCICIO 4
+// Resultado esperado en alert:
+// "La multiplicación es: 24"
+
+function ejercicio4() {
+    let multiplicacion = 6 * 4;
+    alert(`La multiplicacion es ${multiplicacion}`)
+}
+
+
+// EJERCICIO 5
+// Resultado esperado en alert:
+// "El promedio es: 5.7"
+
+function ejercicio5() {
+    let promedio = 5.7;
+    alert(`El promedio es ${promedio}`)
+}
+
+
+// EJERCICIO 6
+// Resultado esperado en alert:
+// "Es mayor de edad"
+
+function ejercicio6() {
+    let edad = 18;
+    if (edad >= 18) {
+        alert("Eres mayor de edad")
+    }
+}
+
+
+// EJERCICIO 7
+// Resultado esperado en alert:
+// "El número es par"
+
+function ejercicio7() {
+    let numero = 8;
+    if (numero % 2 === 0) {
+        alert("El numero es par")
+    }
+
+}
+
+
+// EJERCICIO 8
+// Resultado esperado en alert:
+// "Estudiante aprobado"
+
+function ejercicio8() {
+    let nota = 5.5;
+    if (nota >= 6.0) { //Primera condicion
+        alert("Excelente! sigue asi!")
+
+    } else if (nota >= 4.0) {//Segunda condicion
+        alert("Aprobado, puedes mejorar!")
+    } else {//Valor si no cumple anteriores
+        alert("Reprobado, estudia mas!")
+    }
+}
+
+
+// EJERCICIO 9
+// Resultado esperado en alert:
+// "Precio final con descuento: $18000"
+
+function ejercicio9() {
+    let precio = 20000;
+    let descuento = precio * 0.10;
+    let precioFinal = precio - descuento;
+
+    alert(`Precio final con descuento: $${precioFinal}`);
+}
+
+
+// EJERCICIO 10
+// Resultado esperado en alert:
+// "El número mayor es: 22"
+
+function ejercicio10() {
+    let num1 = 15;
+    let num2 = 22;
+
+    if (num1 > num2) {
+        alert(`El número mayor es: ${num1}`);
+    } else {
+        alert(`El número mayor es: ${num2}`);
+    }
+}
