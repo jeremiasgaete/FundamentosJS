@@ -43,10 +43,12 @@ function ejercicio4() {
 // "El promedio es: 5.7"
 
 function ejercicio5() {
-    let promedio = 5.7;
-    alert(`El promedio es ${promedio}`)
+    let nota1 = 6.0;
+    let nota2 = 5.5;
+    let nota3 = 5.7;
+    let promedio = (nota1 + nota2 + nota3) / 3;
+    alert(`El promedio es: ${promedio}`);
 }
-
 
 // EJERCICIO 6
 // Resultado esperado en alert:
@@ -56,6 +58,8 @@ function ejercicio6() {
     let edad = 18;
     if (edad >= 18) {
         alert("Eres mayor de edad")
+    } else{
+        alert(`Es menor de edad`)
     }
 }
 
@@ -65,11 +69,12 @@ function ejercicio6() {
 // "El número es par"
 
 function ejercicio7() {
-    let numero = 8;
+    let numero = 21;
     if (numero % 2 === 0) {
         alert("El numero es par")
+    }else{
+        alert(`El numero es impar`)
     }
-
 }
 
 
@@ -78,10 +83,9 @@ function ejercicio7() {
 // "Estudiante aprobado"
 
 function ejercicio8() {
-    let nota = 5.5;
+    let nota = 4.5;
     if (nota >= 6.0) { //Primera condicion
         alert("Excelente! sigue asi!")
-
     } else if (nota >= 4.0) {//Segunda condicion
         alert("Aprobado, puedes mejorar!")
     } else {//Valor si no cumple anteriores
@@ -96,20 +100,16 @@ function ejercicio8() {
 
 function ejercicio9() {
     let precio = 20000;
-    let descuento = precio * 0.10;
-    let precioFinal = precio - descuento;
-
-    alert(`Precio final con descuento: $${precioFinal}`);
+    alert(`El precio es de: ${precio * 0.1} 
+    pero con el descuento es de: ${precio - (precio * 0.10)}`)
 }
-
-
 // EJERCICIO 10
 // Resultado esperado en alert:
 // "El número mayor es: 22"
 
 function ejercicio10() {
-    let num1 = 15;
-    let num2 = 22;
+    let num1 = 10;
+    let num2 = 6;
 
     if (num1 > num2) {
         alert(`El número mayor es: ${num1}`);
@@ -117,3 +117,4 @@ function ejercicio10() {
         alert(`El número mayor es: ${num2}`);
     }
 }
+
